@@ -9,7 +9,7 @@ export interface IFriend {
 }
 
 export const friend = model<IFriend>(
-  'Friend',
+  'fiends',
   new Schema<IFriend>(
     {
       _id: { type: mongoose.Schema.Types.ObjectId },
